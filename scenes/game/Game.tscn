@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="Script" path="res://scripts/game/GameController.gd" id="1_game_controller"]
 [ext_resource type="PackedScene" path="res://scenes/ui/HUD.tscn" id="2_hud"]
 [ext_resource type="PackedScene" path="res://scenes/board/BattleBoard.tscn" id="3_board"]
 [ext_resource type="PackedScene" path="res://scenes/ui/BenchPanel.tscn" id="4_bench"]
 [ext_resource type="PackedScene" path="res://scenes/ui/ShopPanel.tscn" id="5_shop"]
+[ext_resource type="PackedScene" path="res://scenes/ui/CombatLogPanel.tscn" id="6_log"]
 
 [node name="Game" type="VBoxContainer"]
 anchors_preset = 15
@@ -16,6 +17,8 @@ script = ExtResource("1_game_controller")
 
 [node name="BattleBoard" parent="." instance=ExtResource("3_board")]
 size_flags_vertical = 3
+
+[node name="CombatLogPanel" parent="." instance=ExtResource("6_log")]
 
 [node name="BenchPanel" parent="." instance=ExtResource("4_bench")]
 

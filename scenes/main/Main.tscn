@@ -7,8 +7,13 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 
+[node name="Background" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.055, 0.061, 0.058, 1)
+
 [node name="Game" parent="." instance=ExtResource("1_game")]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-

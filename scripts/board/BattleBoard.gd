@@ -14,8 +14,8 @@ func _ready() -> void:
 	columns = board_width
 	size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	size_flags_vertical = Control.SIZE_EXPAND_FILL
-	add_theme_constant_override("h_separation", 6)
-	add_theme_constant_override("v_separation", 6)
+	add_theme_constant_override("h_separation", 8)
+	add_theme_constant_override("v_separation", 8)
 	build_board()
 
 

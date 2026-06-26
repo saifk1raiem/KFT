@@ -6,7 +6,7 @@ const STARTING_LEVEL := 1
 const SHOP_REFRESH_COST := 2
 const BUY_XP_COST := 4
 const XP_PER_BUY := 4
-const MAX_LEVEL := 9
+const MAX_LEVEL := 10
 
 const XP_TO_LEVEL := {
 	1: 2,
@@ -15,8 +15,9 @@ const XP_TO_LEVEL := {
 	4: 10,
 	5: 18,
 	6: 30,
-	7: 46,
-	8: 64
+	7: 60,
+	8: 68,
+	9: 68
 }
 
 var gold := STARTING_GOLD

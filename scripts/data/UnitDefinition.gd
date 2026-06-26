@@ -15,6 +15,9 @@ class_name UnitDefinition
 @export var armor := 0
 @export var strengths: Array[String] = []
 @export var weaknesses: Array[String] = []
+@export var unlockable := false
+@export var unlock_label := ""
+@export var unlock_condition: Dictionary = {}
 
 static func from_dictionary(data: Dictionary) -> UnitDefinition:
 	var definition := UnitDefinition.new()
@@ -32,6 +35,10 @@ static func from_dictionary(data: Dictionary) -> UnitDefinition:
 	definition.armor = int(data.get("armor", 0))
 	definition.strengths = _to_string_array(data.get("strengths", []))
 	definition.weaknesses = _to_string_array(data.get("weaknesses", []))
+	definition.unlockable = bool(data.get("unlockable", false))
+	definition.unlock_label = str(data.get("unlock_label", ""))
+	if data.has("unlock_condition") and data["unlock_condition"] is Dictionary:
+		definition.unlock_condition = data["unlock_condition"] as Dictionary
 	return definition
 
 
