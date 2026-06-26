@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/UnitCard.gd" id="1_unit_card"]
+
+[node name="UnitCard" type="Button"]
+script = ExtResource("1_unit_card")
+

@@ -10,9 +10,15 @@ config_version=5
 
 [application]
 
-config/name="Kingdomfight Tactics"
+config/name="Iron Draft"
+run/main_scene="res://scenes/main/Main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameEvents="*res://scripts/autoload/GameEvents.gd"
+UnitDatabase="*res://scripts/autoload/UnitDatabase.gd"
 
 [display]
 

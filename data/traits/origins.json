@@ -1,0 +1,15 @@
+[
+  {"id": "Militia", "description": "Cheap early soldiers that become threatening when upgraded."},
+  {"id": "Japanese", "description": "Fast duelists, disciplined infantry, and precise assassins."},
+  {"id": "Mongol", "description": "Fast cavalry, horse archers, and mobile skirmishers."},
+  {"id": "Norse", "description": "Aggressive infantry and raiders that reward pressure."},
+  {"id": "Frankish", "description": "Heavy cavalry and armored frontline soldiers."},
+  {"id": "English", "description": "Archers, longbowmen, and defensive infantry."},
+  {"id": "Byzantine", "description": "Defensive guards, disciplined soldiers, and balanced formations."},
+  {"id": "Arab", "description": "Spearmen, cavalry, and mobile tactical units."},
+  {"id": "Persian", "description": "Elite infantry, horsemen, and durable soldiers."},
+  {"id": "Chinese", "description": "Commanders, formations, crossbowmen, and tactical support."},
+  {"id": "Ottoman", "description": "Siege units, disciplined infantry, and battlefield pressure."},
+  {"id": "Phoenician", "description": "Support, banner carriers, morale, and economy-minded commanders."}
+]
+

@@ -1,0 +1,14 @@
+[
+  {"id": "Infantry", "description": "Basic melee soldiers that hold the frontline."},
+  {"id": "Guardian", "description": "Tank units with shields and heavy armor."},
+  {"id": "Archer", "description": "Ranged units that need protection."},
+  {"id": "Cavalry", "description": "Mounted units with strong opening charges."},
+  {"id": "Assassin", "description": "Fast killers that target wounded or weak enemies."},
+  {"id": "Duelist", "description": "Elite one-on-one fighters that punish slow tanks."},
+  {"id": "Commander", "description": "Leadership units that buff nearby soldiers."},
+  {"id": "Siege", "description": "Slow pressure units that break defensive armies."},
+  {"id": "Skirmisher", "description": "Mobile fighters that punish bad positioning."},
+  {"id": "Support", "description": "Utility units that heal, buff, protect, or improve economy."},
+  {"id": "Spears", "description": "Anti-cavalry formation units."}
+]
+
